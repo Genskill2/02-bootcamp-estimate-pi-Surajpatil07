@@ -9,7 +9,7 @@ def wallis(n):
   while i<(n+1):
     ans=ans*((4*i*i)/((4*i*i)-1))
     i+=1
-  return ans
+  return ans*2
   
 def monte_carlo(n):
   circle=0
